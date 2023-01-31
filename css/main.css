@@ -1,0 +1,32 @@
+.wrap{
+    flex-direction: column;
+    border: 2px solid black;
+    margin: 5% 5%;
+    padding: 2% 2%;
+    gap: 10px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 95%;
+    padding: 2% 2%;
+    border: 2px solid black;
+}
+input,select{
+    height: 25px;
+    background-color: rgb(237, 224, 224);
+}
+.button{
+color: beige;
+background-color: rgb(5, 167, 26);
+height: 50px;
+border: 2px solid rgb(41, 122, 215);
+}
+.button:hover{border: 2px solid rgb(41, 122, 215);}

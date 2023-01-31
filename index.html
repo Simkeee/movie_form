@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam statistic</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <h1>Movie festival</h1>
+<div class="wrap">
+    <h3>Please fill in the form</h3>
+    <h4>Movie:</h4>
+    <form id="movie-form">
+        <label for="name">Title:</label>
+        <br>
+        <input type="text" id="name" class="input">
+        <br>
+        <label for="duration">Length(min):</label>
+        <br>
+        <input type="number" id="duration" class="input">
+        <br>
+        <label for="genre">Genre:</label>
+        <br>
+        <select id="genre" class="input">
+        <option value="-">-</option>
+          <option value="action">Action</option>
+          <option value="comedy">Comedy</option>
+          <option value="drama">Drama</option>
+          <option value="horror">Horror</option>
+        </select>
+        <br>
+        <input type="button" value="Create Movie" id="btn1" class="button">
+      </form>
+      <br>
+      <form id="program-form">
+        <label for="name">Date:</label>
+        <br>
+        <input type="date" id="choseDate">
+        <br>
+        <input type="button" value="Create program" id="btn2" class="button">
+        <br>
+        <div id="newProgram"></div>
+        <label for="movie">Movie:</label>
+        <select id="movie" class="input">
+            <option value="">-</option>
+        </select>
+        <br>
+        <label for="program">Program:</label>
+        <select id="program" class="input">
+            <option value="">-</option>
+        </select>
+        <br>
+        <input type="button" value="Add movie to program" class="button">
+        <br>
+      </form>
+    </div>
+</body>
+
+<script src="js/entities.js"></script>
+<script src="js/form.js"></script>
+</html>
